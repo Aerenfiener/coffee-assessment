@@ -7,7 +7,6 @@
 
     onMount(() => {
         loading.subscribe((value) => {
-            console.log(value)
             loadingPage = value
         });
     })
