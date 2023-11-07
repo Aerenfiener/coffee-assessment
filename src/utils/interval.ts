@@ -20,7 +20,7 @@ export class Interval {
 
     createInterval = () => {
         this.interval = setInterval(() => {
-            if (!loading) {
+            if (!this.loading) {
                 this.invokedFunc();
             }
         }, this.intervalValue)
